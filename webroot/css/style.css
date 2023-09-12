@@ -1,0 +1,77 @@
+/* Mensagens de sucesso, error ou alerta */
+.flash-message-success {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d4edda;
+    color: #155724;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px;
+    animation: flash 1.5s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .flash-message-error {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    animation: flash 1.5s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .flash-message-error {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    animation: flash 1.5s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .flash-message-warning {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 10px;
+    animation: flash 1.5s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .flash-message-content {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
+  .flash-message-icon {
+    margin-right: 10px;
+  }
+  
+  .flash-message-close {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: inherit;
+  }
+
+#table-th a{
+  color: black;
+  font-size: 22px;
+}
+
+#table-td {
+  font-size: 22px;
+}
+
+.input-form {
+  font-size: 22px;
+}
